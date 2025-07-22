@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0F172A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+  background: #1E293B;
+  padding: 80px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1 span {
+  color: #22D3EE;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.display input {
+  padding: 10px;
+  font-size: 18px;
+  width: 220px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.display img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.pass {
+  background: #22D3EE;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  margin-left: 110px;
+  
+  
+}
+
+
+button img {
+  width: 20px;
+}
+
+.copy-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 4px;
+  transition: transform 0.2s;
+}
+
+.copy-btn:hover {
+  transform: scale(1.1);
+}
